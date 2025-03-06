@@ -35,7 +35,7 @@ export default function SignUp() {
     }
   }
   return (
-    <CustomKeyboardView>
+    <CustomKeyboardView inChat={false}>
       <StatusBar style="dark" />
 
       <View style={{ padding: hp(7), paddingHorizontal: wp(5) }} className='flex-1 gap-12'>
@@ -45,7 +45,6 @@ export default function SignUp() {
 
         <View className='gap-10'>
           <Text style={{ fontSize: hp(4) }} className='font-bold tracking-wider text-center text-neural-800'>Sign Up</Text>
-
 
           <View className='gap-4'>
             {/* Username */}
