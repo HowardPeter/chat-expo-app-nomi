@@ -5,7 +5,7 @@ import MessageItem from './MessageItem'
 export default function MessageList({ messages, scrollViewRef, currentUser }) {
     return (
         <ScrollView
-        ref={scrollViewRef}
+            ref={scrollViewRef}
             showsVerticalScrollIndicator={false}
             contentContainerStyle={{ paddingTop: 10 }}
         >
